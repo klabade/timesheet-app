@@ -1,0 +1,215 @@
+[
+  {
+    "user": "1",
+    "weekStartDate": "2024-12-30",
+    "data": [
+      {
+        "project": "PR-03",
+        "activity": "enhancement",
+        "description": "working for enhancement",
+        "totalHours": 40,
+        "details": [
+          {
+            "Monday": 8
+          },
+          {
+            "Tuesday": 8
+          },
+          {
+            "Wednesday": 8
+          },
+          {
+            "Thursday": 4
+          },
+          {
+            "Friday": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "2",
+    "weekStartDate": "2024-12-30",
+    "timesheetData": [
+      {
+        "project": "P1",
+        "activity": "test",
+        "description": "This is a test",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 8
+          },
+          {
+            "Wednesday": 6
+          },
+          {
+            "Thursday": 4
+          },
+          {
+            "Friday": 8
+          },
+          {
+            "Saturday": 8
+          },
+          {
+            "Sunday": 0
+          }
+        ]
+      },
+      {
+        "project": "P2",
+        "activity": "test2",
+        "description": "",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 1
+          },
+          {},
+          {},
+          {},
+          {
+            "Saturday": 1
+          },
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "user": "2",
+    "weekStartDate": "Jan 6, 2025",
+    "timesheetData": [
+      {
+        "project": "P1",
+        "activity": "test",
+        "description": "This is a test",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 8
+          },
+          {
+            "Wednesday": 6
+          },
+          {
+            "Thursday": 4
+          },
+          {
+            "Friday": 8
+          },
+          {
+            "Saturday": 0
+          },
+          {
+            "Sunday": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "2",
+    "weekStartDate": "2024-12-24",
+    "timesheetData": [
+      {
+        "project": "",
+        "activity": "test",
+        "description": "This is a test",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 6
+          },
+          {
+            "Wednesday": 8
+          },
+          {
+            "Thursday": 8
+          },
+          {
+            "Friday": 0
+          },
+          {
+            "Saturday": 0
+          },
+          {
+            "Sunday": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "2",
+    "weekStartDate": "2024-12-23",
+    "timesheetData": [
+      {
+        "project": "P1",
+        "activity": "test",
+        "description": "This is a test",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 4
+          },
+          {
+            "Wednesday": 4
+          },
+          {
+            "Thursday": 3
+          },
+          {
+            "Friday": 4
+          },
+          {
+            "Saturday": 0
+          },
+          {
+            "Sunday": 0
+          }
+        ]
+      },
+      {
+        "project": "P2",
+        "activity": "test",
+        "description": "This is a test",
+        "details": [
+          {
+            "Monday": 4
+          },
+          {
+            "Tuesday": 4
+          },
+          {
+            "Wednesday": 4
+          },
+          {
+            "Thursday": 3
+          },
+          {
+            "Friday": 4
+          },
+          {
+            "Saturday": 0
+          },
+          {
+            "Sunday": 0
+          }
+        ]
+      }
+    ]
+  }
+]
