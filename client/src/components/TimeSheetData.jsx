@@ -1,6 +1,6 @@
 import React from "react";
 import { daysOfWeek } from "../util";
-export default function TimeSheetData({ formData, handleInputChange }) {
+export default function TimeSheetData({ formData, handleInputChange,addNewRow,deleteRow }) {
   const timeSheetDataElements = formData.timesheetData.map(
     (timesheet, index) => {
       return (
@@ -9,7 +9,7 @@ export default function TimeSheetData({ formData, handleInputChange }) {
             <select
               name="project"
               value={timesheet.project}
-              onChange={(e) => handleChange(index, "project", e.target.value)}
+              onChange={(e) => handleInputChange(index, "project", e.target.value)}
             >
               <option value="">Select Value</option>
               <option value="P1">P1</option>
@@ -51,6 +51,11 @@ export default function TimeSheetData({ formData, handleInputChange }) {
                 handleInputChange(index, "description", e.target.value)
               }
             />
+          </td>
+          <td>
+            <button type="button" onClick={addNewRow}><i class="fa-solid fa-plus"></i></button>
+            <button type="button" className="delete" onClick={()=>deleteRow(index)}><i class="fa-solid fa-trash-can"></i></button>
+            
           </td>
         </tr>
       );

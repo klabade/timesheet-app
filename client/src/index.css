@@ -6,6 +6,7 @@
 
 
 .timesheet-table td {
+ 
   padding: 10px;
   border: 1px solid #ddd;
   text-align: center;
@@ -17,7 +18,19 @@
 }
 
 .timesheet-table input {
+  box-sizing: border-box;
   width: 100%;
   padding: 5px;
   margin: 5px 0;
+}
+
+.timesheet-table button {
+  background-color: #04AA6D;
+}
+
+.timesheet-table button.delete{
+  background-color: #e70707;
+}
+button {
+  background-color: #008CBA;
 }
